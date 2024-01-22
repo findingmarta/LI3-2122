@@ -1,0 +1,20 @@
+typedef struct commit COMMIT;
+typedef struct user USER;
+typedef struct repos REPOS; 
+typedef struct Arvore_busca Arvore;
+
+void removeChar(char * str, char charToRemmove);
+int string2int (char *date);
+void dateWithUser(char *str, int date);
+Arvore *inserir_no(Arvore *arv, int num);
+int contaCommits (Arvore *arv , int inicio, int fim);
+int contaNos(Arvore *arv);
+void insereLL (topN **u, int ri, char *id, char *login, int N);
+void imprimeNusers (topN *u, int N, int i);
+void insereLanguage (struct l** u, char *language);
+void ordenaLanguage (struct l** linguas2, struct l* linguas, int N);
+void imprimeL (struct l *u, int N, int i);
+int isFriend(char *list, char *ownerRepos);
+void imprimeUsers (topN *u, int N, int i);
+void addmessage (char* mensagem, char* reposid, char* commiterid);
+int parseCommit();

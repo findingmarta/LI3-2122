@@ -1,0 +1,7 @@
+# Ignore entrada and saida folders in guiao-1, guiao-2, and guiao-3
+guiao-1/entrada/
+guiao-1/saida/
+guiao-2/entrada/
+guiao-2/saida/
+guiao-3/entrada/
+guiao-3/saida/
